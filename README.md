@@ -2,6 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    hr {
+      margin: 30px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    td, th {
+      text-align: center;
+      padding: 10px;
+    }
+    img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+      margin: 10px;
+    }
+    blockquote {
+      font-style: italic;
+      background: #f9f9f9;
+      padding: 10px 20px;
+      border-left: 5px solid #ccc;
+      margin: 20px 0;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    ul, ol {
+      margin: 10px 0 20px 20px;
+    }
+    a {
+      color: #007BFF;
+    }
+  </style>
 </head>
 <body>
 
@@ -61,18 +113,11 @@
 <hr>
 
 <h2 id="gallery">🖼️ Gallery</h2>
-<table>
-<thead>
-<tr><th>Home Page</th><th>Ticket Listing</th><th>NFT Receipt</th></tr>
-</thead>
-<tbody>
-<tr>
-<td><img src="./screenshots/home.png" alt="Home" width="300"></td>
-<td><img src="./screenshots/list_ticket.png" alt="List Tickets" width="300"></td>
-<td><img src="./screenshots/nft_receipt.png" alt="NFT Receipt" width="300"></td>
-</tr>
-</tbody>
-</table>
+<div style="text-align: center;">
+  <img src="./screenshots/home.png" alt="Home">
+  <img src="./screenshots/list_ticket.png" alt="List Ticket">
+  <img src="./screenshots/nft_receipt.png" alt="NFT Receipt">
+</div>
 
 <hr>
 
@@ -162,13 +207,6 @@ NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=your_project_id
 <hr>
 
 <h1>🚀 BlockTix - Empowering a New Era of Events!</h1>
-
-<hr>
-
-<blockquote>
-  <p><strong>Note:</strong><br>  
-  The icons (🪩 🎟️ 🔥 🎁 etc.) and tables will render beautifully on GitHub Pages and markdown-supported websites.</p>
-</blockquote>
 
 </body>
 </html>

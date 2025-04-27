@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>BlockTix - Blockchain-powered Ticket Reselling Platform</title>
 </head>
 <body>
 
@@ -99,5 +100,76 @@ cd blocktix
 
 <h3>2. Backend Setup (FastAPI)</h3>
 
-<pre><code
+<pre><code>cd backend
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+</code></pre>
 
+<p>Backend runs on ➡️ <strong>http://127.0.0.1:8000</strong></p>
+
+<h3>3. Frontend Setup (Next.js React)</h3>
+
+<pre><code>cd frontend
+npm install --legacy-peer-deps
+npm run dev
+</code></pre>
+
+<p>Frontend runs on ➡️ <strong>http://localhost:3000</strong></p>
+
+<hr>
+
+<h2 id="environment-variables">🔑 Environment Variables</h2>
+
+<h3>Backend</h3>
+<pre><code>DATABASE_URL=postgresql://username:password@localhost:5432/yourdb
+JWT_SECRET=your_jwt_secret_here
+BASE_API_KEY=your_base_chain_api_key
+STELLAR_API_KEY=your_stellar_chain_api_key
+</code></pre>
+
+<h3>Frontend</h3>
+<pre><code>NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
+NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=your_project_id
+</code></pre>
+
+<hr>
+
+<h2 id="api-documentation">📡 API Documentation</h2>
+<p>Once backend is running ➡️ Open:</p>
+<ul>
+  <li><strong>Swagger UI:</strong> <a href="http://127.0.0.1:8000/docs">http://127.0.0.1:8000/docs</a></li>
+  <li><strong>Redoc:</strong> <a href="http://127.0.0.1:8000/redoc">http://127.0.0.1:8000/redoc</a></li>
+</ul>
+
+<hr>
+
+<h2 id="contributing">🧩 Contributing</h2>
+<p>We love contributions! 🫶</p>
+<ol>
+  <li>Fork the repository.</li>
+  <li>Create your feature branch: <code>git checkout -b feature/your-feature-name</code></li>
+  <li>Commit your changes: <code>git commit -m 'Add some feature'</code></li>
+  <li>Push to the branch: <code>git push origin feature/your-feature-name</code></li>
+  <li>Open a pull request.</li>
+</ol>
+
+<hr>
+
+<h2 id="license">🛡️ License</h2>
+<p>Distributed under the <strong>MIT License</strong>.<br> See <code>LICENSE</code> for more information.</p>
+
+<hr>
+
+<h1>🚀 BlockTix - Empowering a New Era of Events!</h1>
+
+<hr>
+
+<blockquote>
+  <p><strong>Note:</strong><br>  
+  The icons (🪩 🎟️ 🔥 🎁 etc.) and tables will render beautifully on GitHub Pages and markdown-supported websites.</p>
+</blockquote>
+
+</body>
+</html>

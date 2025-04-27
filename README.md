@@ -36,12 +36,12 @@
 
 <h2 id="features" align="center">✨ Features</h2>
 <ul align="center">
-  <li>🎟️ <strong>Fraud-Proof Ticket Reselling</strong></li>
-  <li>🔥 <strong>Automatic Ticket Validation</strong></li>
-  <li>🌐 <strong>Cross-Chain Crypto Payments</strong></li>
-  <li>💵 <strong>Multiple Payment Options</strong></li>
-  <li>🖼️ <strong>NFT Receipts</strong></li>
-  <li>📜 <strong>Transparent Transaction History</strong></li>
+  <li align="center">🎟️ <strong>Fraud-Proof Ticket Reselling</strong></li>
+  <li align="center">🔥 <strong>Automatic Ticket Validation</strong></li>
+  <li align="center">🌐 <strong>Cross-Chain Crypto Payments</strong></li>
+  <li align="center">💵 <strong>Multiple Payment Options</strong></li>
+  <li align="center">🖼️ <strong>NFT Receipts</strong></li>
+  <li align="center">📜 <strong>Transparent Transaction History</strong></li>
 </ul>
 
 <hr>
@@ -71,8 +71,8 @@
 
 <h2 id="getting-started" align="center">🚀 Getting Started</h2>
 
-<h3>📋 Prerequisites</h3>
-<ul>
+<h3 align="center">📋 Prerequisites</h3>
+<ul align="center">
   <li>Node.js ≥ 18</li>
   <li>Python ≥ 3.9</li>
   <li>PostgreSQL database</li>

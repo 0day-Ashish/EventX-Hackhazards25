@@ -29,7 +29,7 @@
 <hr>
 
 <h2 id="about" align="center">🧠 About</h2>
-<p><strong>BlockTix</strong> is a next-generation event ticketing and reselling platform built on blockchain.</p>
+<p align="center"><strong>BlockTix</strong> is a next-generation event ticketing and reselling platform built on blockchain.</p>
 <p>It enables users to <strong>buy, sell, and resell</strong> event tickets safely using <strong>crypto wallets</strong>.<br> Powered by <strong>Stellar</strong>, <strong>Base</strong>, and <strong>NFT technology</strong>, BlockTix ensures a <strong>secure, transparent, and fraud-free</strong> event experience for everyone.</p>
 
 <hr>

@@ -1,133 +1,104 @@
-—
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BlockTix - Blockchain-powered Ticket Reselling Platform</title>
+</head>
+<body>
 
-🪩 BlockTix - Blockchain-powered Ticket Reselling Platform
-Reimagining event ticketing with cross-chain payments, fraud-proof reselling, and NFT collectibles.
+<h1>🪩 BlockTix - Blockchain-powered Ticket Reselling Platform</h1>
+<blockquote>
+  <p>Reimagining event ticketing with cross-chain payments, fraud-proof reselling, and NFT collectibles.</p>
+</blockquote>
 
-📜 Table of Contents
-About
+<hr>
 
-Features
+<h2>📜 Table of Contents</h2>
+<ul>
+  <li><a href="#about">About</a></li>
+  <li><a href="#features">Features</a></li>
+  <li><a href="#tech-stack">Tech Stack</a></li>
+  <li><a href="#screenshots">Screenshots</a></li>
+  <li><a href="#getting-started">Getting Started</a></li>
+  <li><a href="#environment-variables">Environment Variables</a></li>
+  <li><a href="#installation">Installation</a></li>
+  <li><a href="#api-documentation">API Documentation</a></li>
+  <li><a href="#contributing">Contributing</a></li>
+  <li><a href="#license">License</a></li>
+</ul>
 
-Tech Stack
+<hr>
 
-Screenshots
+<h2 id="about">🧠 About</h2>
+<p><strong>BlockTix</strong> is a next-generation event ticketing and reselling platform built on blockchain.</p>
+<p>It enables users to <strong>buy, sell, and resell</strong> event tickets safely using <strong>crypto wallets</strong>.<br> Powered by <strong>Stellar</strong>, <strong>Base</strong>, and <strong>NFT technology</strong>, BlockTix ensures a <strong>secure, transparent, and fraud-free</strong> event experience for everyone.</p>
 
-Getting Started
+<hr>
 
-Environment Variables
+<h2 id="features">✨ Features</h2>
+<ul>
+  <li>🎟️ <strong>Fraud-Proof Ticket Reselling</strong></li>
+  <li>🔥 <strong>Automatic Ticket Validation</strong></li>
+  <li>🌐 <strong>Cross-Chain Crypto Payments</strong></li>
+  <li>💵 <strong>Multiple Payment Options</strong></li>
+  <li>🖼️ <strong>NFT Receipts</strong></li>
+  <li>📜 <strong>Transparent Transaction History</strong></li>
+</ul>
 
-Installation
+<hr>
 
-API Documentation
+<h2 id="tech-stack">⚙️ Tech Stack</h2>
 
-Contributing
+<table>
+<thead>
+<tr><th>Frontend</th><th>Backend</th><th>Blockchain</th></tr>
+</thead>
+<tbody>
+<tr><td>React.js (Next.js + TypeScript + TailwindCSS)</td><td>FastAPI (Python)</td><td>Stellar, Base Blockchain</td></tr>
+<tr><td>Radix UI, Recharts, Sonner</td><td>JWT Auth, PostgreSQL</td><td>NFT Minting</td></tr>
+</tbody>
+</table>
 
-License
+<hr>
 
-🧠 About
-BlockTix is a next-generation event ticketing and reselling platform built on blockchain.
+<h2 id="screenshots">🖼️ Screenshots</h2>
+<table>
+<thead>
+<tr><th>Home Page</th><th>Ticket Listing</th><th>NFT Receipt</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="./screenshots/home.png" alt="Home" width="300"></td>
+<td><img src="./screenshots/list_ticket.png" alt="List Tickets" width="300"></td>
+<td><img src="./screenshots/nft_receipt.png" alt="NFT Receipt" width="300"></td>
+</tr>
+</tbody>
+</table>
 
-It enables users to buy, sell, and resell event tickets safely using crypto wallets.
-Powered by Stellar, Base, and NFT technology, BlockTix ensures a secure, transparent, and fraud-free event experience for everyone.
+<hr>
 
-✨ Features
-🎟️ Fraud-Proof Ticket Reselling
+<h2 id="getting-started">🚀 Getting Started</h2>
 
-🔥 Automatic Ticket Validation
+<h3>📋 Prerequisites</h3>
+<ul>
+  <li>Node.js ≥ 18</li>
+  <li>Python ≥ 3.9</li>
+  <li>PostgreSQL database</li>
+  <li>Metamask / Wallet Extension</li>
+  <li>Git</li>
+</ul>
 
-🌐 Cross-Chain Crypto Payments
+<hr>
 
-💵 Multiple Payment Options
+<h2 id="installation">⚙️ Installation</h2>
 
-🖼️ NFT Receipts
+<h3>1. Clone the repository</h3>
 
-📜 Transparent Transaction History
-
-⚙️ Tech Stack
-
-Frontend	Backend	Blockchain
-React.js (Next.js + TypeScript + TailwindCSS)	FastAPI (Python)	Stellar, Base Blockchain
-Radix UI, Recharts, Sonner	JWT Auth, PostgreSQL	NFT Minting
-🖼️ Screenshots
-
-Home Page	Ticket Listing	NFT Receipt
-🚀 Getting Started
-📋 Prerequisites
-Node.js ≥ 18
-
-Python ≥ 3.9
-
-PostgreSQL database
-
-Metamask / Wallet Extension
-
-Git
-
-⚙️ Installation
-1. Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/blocktix.git
+<pre><code>git clone https://github.com/yourusername/blocktix.git
 cd blocktix
-2. Backend Setup (FastAPI)
-bash
-Copy
-Edit
-cd backend
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-Backend runs on ➡️ http://127.0.0.1:8000
+</code></pre>
 
-3. Frontend Setup (Next.js React)
-bash
-Copy
-Edit
-cd frontend
-npm install --legacy-peer-deps
-npm run dev
-Frontend runs on ➡️ http://localhost:3000
+<h3>2. Backend Setup (FastAPI)</h3>
 
-🔑 Environment Variables
-Create a .env file inside both frontend/ and backend/:
-
-Backend
-env
-Copy
-Edit
-DATABASE_URL=postgresql://username:password@localhost:5432/yourdb
-JWT_SECRET=your_jwt_secret_here
-BASE_API_KEY=your_base_chain_api_key
-STELLAR_API_KEY=your_stellar_chain_api_key
-Frontend
-env
-Copy
-Edit
-NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
-NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=your_project_id
-📡 API Documentation
-Once backend is running ➡️ Open:
-
-Swagger UI: http://127.0.0.1:8000/docs
-
-Redoc: http://127.0.0.1:8000/redoc
-
-🧩 Contributing
-We love contributions! 🫶
-
-Fork the repository.
-
-Create your feature branch: git checkout -b feature/your-feature-name
-
-Commit your changes: git commit -m 'Add some feature'
-
-Push to the branch: git push origin feature/your-feature-name
-
-Open a pull request.
-
-🛡️ License
-Distributed under the MIT License.
-See LICENSE for more information.
+<pre><code
 

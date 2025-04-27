@@ -5,14 +5,14 @@
   </head>
 <body>
 
-<h1>🪩 BlockTix - Blockchain-powered Ticket Reselling Platform</h1>
+<h1 align="center">🪩 BlockTix - Blockchain-powered Ticket Reselling Platform</h1>
 <blockquote>
-  <p>Reimagining event ticketing with cross-chain payments, fraud-proof reselling, and NFT collectibles.</p>
+  <p align="center">Reimagining event ticketing with cross-chain payments, fraud-proof reselling, and NFT collectibles.</p>
 </blockquote>
 
 <hr>
 
-<h2>📜 Table of Contents</h2>
+<h2 align="center">📜 Table of Contents</h2>
 <ul>
   <li><a href="#about">About</a></li>
   <li><a href="#features">Features</a></li>
@@ -28,13 +28,13 @@
 
 <hr>
 
-<h2 id="about">🧠 About</h2>
+<h2 id="about" align="center">🧠 About</h2>
 <p><strong>BlockTix</strong> is a next-generation event ticketing and reselling platform built on blockchain.</p>
 <p>It enables users to <strong>buy, sell, and resell</strong> event tickets safely using <strong>crypto wallets</strong>.<br> Powered by <strong>Stellar</strong>, <strong>Base</strong>, and <strong>NFT technology</strong>, BlockTix ensures a <strong>secure, transparent, and fraud-free</strong> event experience for everyone.</p>
 
 <hr>
 
-<h2 id="features">✨ Features</h2>
+<h2 id="features" align="center">✨ Features</h2>
 <ul>
   <li>🎟️ <strong>Fraud-Proof Ticket Reselling</strong></li>
   <li>🔥 <strong>Automatic Ticket Validation</strong></li>
@@ -46,7 +46,7 @@
 
 <hr>
 
-<h2 id="tech-stack">⚙️ Tech Stack</h2>
+<h2 id="tech-stack" align="center">⚙️ Tech Stack</h2>
 
 <table>
 <thead>
@@ -60,7 +60,7 @@
 
 <hr>
 
-<h2 id="gallery">🖼️ Gallery</h2>
+<h2 id="gallery" align="center">🖼️ Gallery</h2>
 <div style="text-align: center;">
   <img src="./screenshots/home.png" alt="Home">
   <img src="./screenshots/list_ticket.png" alt="List Ticket">
@@ -69,7 +69,7 @@
 
 <hr>
 
-<h2 id="getting-started">🚀 Getting Started</h2>
+<h2 id="getting-started" align="center">🚀 Getting Started</h2>
 
 <h3>📋 Prerequisites</h3>
 <ul>
@@ -82,7 +82,7 @@
 
 <hr>
 
-<h2 id="installation">⚙️ Installation</h2>
+<h2 id="installation" align="center">⚙️ Installation</h2>
 
 <h3>1. Clone the repository</h3>
 

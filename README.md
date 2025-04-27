@@ -5,7 +5,7 @@
   </head>
 <body>
 
-<h1 align="center">🪩 BlockTix - Blockchain-powered Ticket Reselling Platform</h1>
+<h1 align="center">🚀 BlockTix - Blockchain-powered Ticket Reselling Platform</h1>
 <blockquote>
   <p align="center">Reimagining event ticketing with cross-chain payments, fraud-proof reselling, and NFT collectibles.</p>
 </blockquote>

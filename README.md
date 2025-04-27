@@ -12,7 +12,7 @@
 
 <hr>
 
-<h2 align="center">📜 Table of Contents</h2>
+<h2>📜 Table of Contents</h2>
 <ul>
   <li><a href="#about">About</a></li>
   <li><a href="#features">Features</a></li>

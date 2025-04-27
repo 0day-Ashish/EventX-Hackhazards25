@@ -17,7 +17,7 @@
   <li><a href="#about">About</a></li>
   <li><a href="#features">Features</a></li>
   <li><a href="#tech-stack">Tech Stack</a></li>
-  <li><a href="#screenshots">Screenshots</a></li>
+  <li><a href="#gallery">Gallery</a></li>
   <li><a href="#getting-started">Getting Started</a></li>
   <li><a href="#environment-variables">Environment Variables</a></li>
   <li><a href="#installation">Installation</a></li>
@@ -60,7 +60,7 @@
 
 <hr>
 
-<h2 id="screenshots">🖼️ Screenshots</h2>
+<h2 id="gallery">🖼️ Gallery</h2>
 <table>
 <thead>
 <tr><th>Home Page</th><th>Ticket Listing</th><th>NFT Receipt</th></tr>

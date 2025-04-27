@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>BlockTix - Blockchain-powered Ticket Reselling Platform</title>
 </head>
 <body>
 
